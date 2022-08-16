@@ -1,0 +1,14 @@
+@import 'settings/colors.scss';
+@import 'settings/fonts.scss';
+@import 'settings/font-sizes.scss';
+@import 'settings/spacings.scss';
+// @import 'tools/*';
+@import './generic/normalizer.scss';
+@import 'elements/input.scss';
+// @import 'objects/*';
+@import 'components/header.scss';
+@import 'components/main.scss';
+@import 'components/form.scss';
+@import 'components/qrcode.scss';
+@import 'components/disclaimer.scss';
+// @import 'utilities/*';

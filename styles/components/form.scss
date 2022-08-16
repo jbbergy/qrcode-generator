@@ -1,0 +1,24 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: $spacing-m;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 31rem;
+  }
+
+  &__generate-button {
+    border: 0;
+    line-height: 2;
+    font-weight: bold;
+    color: $white;
+    background-color: $atomic-tangerine;
+
+    &:hover {
+      background-color: $deep-champagne;
+    }
+  }
+}

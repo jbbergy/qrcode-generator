@@ -1,0 +1,12 @@
+.qrcode {
+  padding: $spacing-l;
+
+  &__display {
+    max-width: 100%;
+    padding: $spacing-m;
+
+    img {
+      width: 100%;
+    }
+  }
+}
